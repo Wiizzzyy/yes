@@ -16,5 +16,5 @@ HRP.CFrame = FLCPP.CFrame
 task.wait(1)
 fireproximityprompt(FLCPP.ProximityPrompt,0)
 task.wait(1)
-queue_on_teleport(game:HttpGet("https://raw.githubusercontent.com/lhtesting/main/main/ah23tgds.lua"))
+queue_on_teleport(game:HttpGet("https://raw.githubusercontent.com/Wiizzzyy/yes/main/hi.lua"))
 game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
