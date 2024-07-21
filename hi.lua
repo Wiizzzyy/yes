@@ -12,9 +12,9 @@ for _,prompt in workspace:GetDescendants() do
     if not prompt:IsA("ProximityPrompt") then continue end
     prompt.HoldDuration = 0
 end
-HRP.CFrame = FLCPP.CFrame
+HRP.CFrame = VCPP.CFrame
 task.wait(1)
-fireproximityprompt(FLCPP.ProximityPrompt,0)
+fireproximityprompt(VCPP.ProximityPrompt,0)
 task.wait(1)
 queue_on_teleport(game:HttpGet("https://raw.githubusercontent.com/Wiizzzyy/yes/main/hi.lua"))
 game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
