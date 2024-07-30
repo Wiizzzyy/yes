@@ -1,5 +1,5 @@
 repeat task.wait() until game:IsLoaded()
-task.wait(3)
+task.wait(5)
 local Button1 = workspace.MapFolder.Obby_FloodedCaves.Button1.TouchPart
 local Button2 = workspace.MapFolder.Obby_FloodedCaves.Button2.TouchPart
 local FLCPP = workspace.MapFolder.Obby_FloodedCaves.PromptPart
